@@ -17,3 +17,9 @@
   text-decoration: none;
   transform: scale(0.5);
 }
+
+#scary-button {
+  background-color: red;
+  color: white;
+  font-size: 20px;
+}
