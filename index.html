@@ -1,11 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <div id="menu">
-      <a href="index.html">Home</a>
-      <a href="Blogs.html">Blogs</a>
-      <a href="#">Contact</a>
-    </div>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="styles/main.css" />
     <link rel="script" type="text/js" href="script.js" />
     <title>Baeley Cannings' Blog</title>
@@ -13,7 +9,7 @@
       /*learnt gradient backgrounds from openai, changed around to be radial and adjusted sizing,timing & position*/
       body {
         background: radial-gradient(circle, rgb(68, 67, 67), rgb(78, 3, 3));
-        background-size: 400% 400%;
+        background-size: cover;
         animation: gradient 10s ease infinite;
       }
       @keyframes gradient {
@@ -26,29 +22,24 @@
         100% {
           background-position: 0% 50%;
         }
+     
+
       }
     
       h1 {
         text-align: center;
         color:white;
-      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    }
-      div{
-        text-align: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
       }
-
-      a {
-        color: silver
-      }
-  
-  
     </style>
-    
   </head>
   <body>
-   
-    
-      <h1>Welcome to My Blog</h1>
+    <div id="menu">
+      <a href="index.html">Home</a>
+      <a href="Blogs.html">Blogs</a>
+      <a href="#">Contact</a>
+    </div>
 
+    <h1>Welcome to My Blog</h1>
   </body>
 </html>
