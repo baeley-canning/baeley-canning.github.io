@@ -1,3 +1,4 @@
+Copy code
 <!DOCTYPE html>
 <html>
 <head>
@@ -5,6 +6,19 @@
   <style>
     body {
       background: linear-gradient(to right, silver, gray);
+      background-size: 400% 400%;
+      animation: gradient 20s ease infinite;
+    }
+    @keyframes gradient {
+      0% {
+        background-position: 0% 50%;
+      }
+      50% {
+        background-position: 100% 50%;
+      }
+      100% {
+        background-position: 0% 50%;
+      }
     }
     h1 {
       text-align: center;
@@ -20,6 +34,7 @@
       margin-top: 0;
     }
   </style>
+
 </head>
 <body>
   <div class="container">
@@ -27,11 +42,6 @@
     <div class="post">
       <h2>Post Title</h2>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor, augue id congue malesuada, velit erat dictum velit, vel congue velit mi id quam. Sed eget risus vestibulum, feugiat velit in, rutrum augue.</p>
-    </div>
-    <div class="post">
-      <h2>Another Post Title</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor, augue id congue malesuada, velit erat dictum velit, vel congue velit mi id quam. Sed eget risus vestibulum, feugiat velit in, rutrum augue.</p>
-    </div>
-  </div>
+    
 </body>
 </html>
