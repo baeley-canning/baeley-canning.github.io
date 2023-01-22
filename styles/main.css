@@ -18,3 +18,11 @@
   transform: scale(0.5);
 }
 
+
+@media screen and (max-width: 480px) {
+  .button {
+    /* styles for devices smaller than 480px */
+    border-radius: 35px;
+    font-size: 0.8em;
+  }
+}
