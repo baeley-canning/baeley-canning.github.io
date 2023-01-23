@@ -1,11 +1,13 @@
-  
 <!DOCTYPE html>
 <html>
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="styles/main.css" />
     <link rel="script" type="text/js" href="script.js" />
-    <title>Baeley Cannings - Home</title>
+    <title>Directory</title>
+    <div class="button-container">
+      <a class="back-button" href="index.html">Back</a>
+      </div>
 
     <style>
       /*learnt gradient backgrounds from openai, changed around to be radial and adjusted sizing,timing & position*/
@@ -37,6 +39,20 @@
       a {
         color: silver
       }
+      .button:hover {
+        width: 150px;
+  height: 50px;
+  padding:10px;
+  font-size:20px;
+transition: background-color 0.5s ease;
+background-color: rgb(102, 102, 6);
+}
+.button {
+  width: 150px;
+  height: 50px;
+  padding:10px;
+  font-size:20px;
+}
 
 h3 {
 
@@ -51,7 +67,6 @@ h3 {
 
   color: violet;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-size: 77%;
  }
 
  .menu:hover:hover {
@@ -62,32 +77,17 @@ h3 {
 transition: color 0.5s ease;
 color: rgb(102, 102, 6);}
 
-.monke-style {
-  width: 25%; 
-  margin: auto; 
-  display: block;
-  border-width: 2px;
-  border-style: solid;
-  border-color: purple;
-  border-style:ridge;
 
-}
-    </style>
+
+</style>
   </head>
   <body>
-    <div id="menu">
-      <a href="Blogs.html">Home</a>
-      <a href="index.html">Directory</a>
-      <a href="Tester/tester.html">Turtle</a>
-    </div>
+  
 
-    <h3> Welcome Home</h3>
-    <p> Try clicking "Directory" above</p>
-    <img class="monke-style" src="monkE.jpg" alt="Monkey Syndrome">
+    <div class="button-container">
+      <a class="button" href="blog/te-houtaewa-template.html">te-houtaewa</a>
+      <img src="turtle.jpg" alt="Turtle">
+      
 
 
-    
-
-
-  </body>
 </html>
