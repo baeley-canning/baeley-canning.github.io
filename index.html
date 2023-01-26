@@ -1,95 +1,70 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="styles/main.css" />
-    <link rel="script" type="text/js" href="script.js" />
     <title>Directory</title>
-
-    <style>
-      /*learnt gradient backgrounds from openai, changed around to be radial and adjusted sizing,timing & position*/
-      body {
-        background: radial-gradient(circle, rgb(47, 46, 46), rgb(19, 4, 86));
-        background-size: cover;
-        animation: gradient 10s ease infinite;
-      }
-      @keyframes gradient {
-        0% {
-          background-position: 0% 50%;
-        }
-        50% {
-          background-position: 100% 50%;
-        }
-        100% {
-          background-position: 0% 50%;
-        }
-      }
     
-      h1 {
-        text-align: center;
-        color:white;
-      }
-      div{
-        text-align: center;
-        
-      }
-      a {
-        color: silver
-      }
-      .button:hover {
-        width: 150px;
-  height: 50px;
-  padding:10px;
-  font-size:20px;
-transition: background-color 0.5s ease;
-background-color: rgb(102, 102, 6);
-}
-.button {
-  width: 150px;
-  height: 50px;
-  padding:10px;
-  font-size:20px;
-}
-
-h3 {
-
-  text-align: center;
-  color: blueviolet;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
- }
-
- p {
-
-  text-align: center;
-
-  color: violet;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
- }
-
- .menu:hover:hover {
-        width: 150px;
-  height: 50px;
-  padding:10px;
-  font-size:20px;
-transition: color 0.5s ease;
-color: rgb(102, 102, 6);}
-    </style>
   </head>
+  <link rel="stylesheet" type="text/css" href="styles/main.css" />
+    <link rel="script" type="text/js" href="script.js" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
   <body>
-    <div id="menu">
-      <a href="Blogs.html">Home</a>
-      <a href="index.html">Directory</a>
-      <a href="#">Other</a>
-    </div>
-
-    <h3> ##</h3>
-    <p> # </p>
-
-    <div class="button-container">
-      <a class="button" href="indexS2.html">Sprint 2</a>
-      <a class="button" href="indexS3.html">Sprint 3</a>
-      <a class="button" href="indexS4.html">Sprint 4</a>
-      <a class="button" href="indexS5.html">Sprint 5</a>
-   
+    <header>
+      <h1>Index</h1>
+    </header>
+    <nav>
+      <button href="index.html">Home</a>
+      <button>
+        Sprint 1
+        <div class="dropdown-content">
+          <a href="#">Option 1</a>
+          <a href="#">Option 2</a>
+        
+        </div>
+      </button>
+      <button>
+        Sprint 2
+        <div class="dropdown-content">
+          <a href="blog/te-houtaewa-template.html">Te-Houtaewa</a>
+          <a href="blog/html-css.html">HTML-CSS</a>
+          <a href="blog/identity-values.html">Identity-Values</a>
+          <a href="blog/learning-plan.html">Learning-Plan</a>
+        
+        </div>
+      </button>
+      <button>
+        Sprint 3
+        <div class="dropdown-content">
+          <a href="blog/emotional-intelligence.html">Emotional-Intelligence</a>
+          <a href="#">Option 2</a>
+        
+        </div>
+      </button>
+      <button>
+        Sprint 4
+        <div class="dropdown-content">
+          <a href="#">Option 1</a>
+          <a href="#">Option 2</a>
+        
+        </div>
+        <button>
+          Sprint 5
+          <div class="dropdown-content">
+            <a href="#">Option 1</a>
+            <a href="#">Option 2</a>
+          
+          </div>
+        </button>
+      </button>
+    <section>
+      <article>
+        <h2>##</h2>
+        <p> ##yagfgdfdgdsd</p>
+      </article>
+      <article>
+        <h2>##</h2>
+        <p>## ggdfgdfgdf</p>
+      </article>
+    </section>
   </body>
 </html>
