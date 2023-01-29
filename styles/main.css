@@ -62,3 +62,11 @@ nav button:hover .dropdown-content {
     display: block;
 }
 
+.image-container {
+  float: right;
+}
+
+img {
+  width: 30%; /* adjust as needed */
+  height: auto; /* keep aspect ratio */
+}
