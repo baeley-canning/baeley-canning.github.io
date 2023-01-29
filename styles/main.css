@@ -70,3 +70,51 @@ img {
   width: 30%; /* adjust as needed */
   height: auto; /* keep aspect ratio */
 }
+
+/* Dark mode styling */
+.dark-mode {
+  background-color: #333;
+  color: white;
+}
+
+.dark-mode header {
+  background-color: #555;
+}
+
+.dark-mode nav {
+  background-color: #444;
+}
+
+.dark-mode nav button {
+  background-color: #555;
+  color: white;
+}
+
+.dark-mode .dropdown-content {
+    background-color: #444;
+}
+
+.dark-mode .dropdown-content a {
+    color: white;
+}
+
+.dark-mode .dropdown-content a:hover {
+    background-color: #555;
+}
+
+#dark-mode-button {
+position: absolute;
+left:655px;
+bottom: 1px;
+
+
+}
+
+@media (max-width: 600px) {
+  #dark-mode-button {
+  position: relative; 
+  left:90px ;
+  bottom: 0;
+  margin: 1em; 
+  }
+  }
