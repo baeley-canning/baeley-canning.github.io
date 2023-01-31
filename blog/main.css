@@ -25,9 +25,10 @@ header h2 {
 H2 {
   text-align: center;
   font-size: 25px;
-  margin: 5%;
+  margin: 2%;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   color: darkblue;
+  
 }
 h3 {
   text-align: center;
