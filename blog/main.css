@@ -71,6 +71,23 @@ button {
 
 }
 
+@media (max-width: 600px) {
+  button {
+    color: #337ab7;
+    text-decoration: none;
+    margin-right: -2em;
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    border:black;
+    border-width: 1px;
+    border-style:double;
+    border-radius: 25px;
+    position: relative;
+  width: 50%;
+  }
+  }
+
 button:hover {
   background-color: aqua;
   cursor: pointer;
