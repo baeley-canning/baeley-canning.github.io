@@ -21,15 +21,33 @@ nav {
 }
 
 nav button {
-  color: #337ab7;
+  color:#f9f9f9;
   text-decoration: none;
   margin-right: 1em;
   background-color: #337ab7;
   color: white;
   padding: 10px 20px;
-  border: none;
+  border:black;
+  border-width: 1px;
+  border-style:double;
   border-radius: 25px;
   position: relative;
+
+}
+
+div button {
+  color: #337ab7;
+  text-decoration: none;
+  margin-right: 1em;
+  background-color: white;
+  color: black;
+  padding: 10px 20px;
+  border:black;
+  border-width: 1px;
+  border-style:double;
+  border-radius: 25px;
+  position: relative;
+
 }
 
 nav button:hover{

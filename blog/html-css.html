@@ -2,168 +2,66 @@
 <html>
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="/styles/main.css" />
+    <link rel="stylesheet" type="text/css" href="main.css" />
     <link rel="script" type="text/js" href="/script.js" />
-    <title>Html-CSS</title>
-    <div class="button-container">
-      <a class="button" href="../index.html">Back</a>
-      </div>
-<script>
-
-  var btn = document.getElementById("button");
-
- 
-  window.addEventListener("scroll", function() {
- 
-    var scroll = window.pageYOffset;
-    
-    if (scroll > 0) {
-      btn.style.position = "fixed";
-      btn.style.top = "0";
-      btn.style.left = "50%";
-    
-    
-      
-    
-    } else {
-     
-      btn.style.position = "relative";
-    }
-  });
-</script>
+    <title>Identity-Values</title>
 
     <style>
      
-      body {
-        background: fixed;
-        color: whitesmoke;
-      
-  
-      }
-      p {
-  margin: 0 25% 0 25%;
-  text-align: center;
-  color: black;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  
-}
 
-ul {
-  margin: 0 25% 0 25%;
-  text-align: center;
-  color: black;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  
-}
-
-.img-container {
-  display: flex;
-  justify-content: center; /* aligns items horizontally */
-}
-
-.img-style {
-  width: 25%; /* set the width of the image */
-  margin: auto; /* center aligns the image horizontally within the container */
-}
-
-.img-container {
-  display: flex;
-  justify-content: center; /* aligns items horizontally */
-}
-
-.img-style {
-  width: 25%; /* set the width of the image */
-  margin: auto; /* center aligns the image horizontally within the container */
-}
-#header{
-  color: black;
-}
-
-.discriptor1
-{
-  font-size: 9pt;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  color: darkblue;
-  text-shadow: 1px 1px 0 rgb(255, 255, 255);
-}
-
-.discriptor2
-{
-  font-size: 9pt;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  color: darkblue;
-  text-shadow: 1px 1px 0 rgb(255, 255, 255);
-}
-.discriptor3 {
-  font-size: 9pt;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  color: darkblue;
-  text-shadow: 1px 1px 0 rgb(255, 255, 255);
-}
-
-
-.button-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.button {
-  border: 2px solid rgb(14, 1, 1);
-  padding: 10px;
-  border-radius: 65px;
-  text-decoration: none;
-  transform: scale(0.5);
-  position :fixed; top:0; right: 0;
-
-}
-
-
-      
     </style>
 </head>
+<body>
+  <header>
+    <nav class="header-container">
+      <h1>Sprint-3</h1>
+      <button onclick="location.href='../index.html'">Back</button>
+    </nav>
+  </header>
+  </head>
+
 <body>
 
 
 
 
 
-<p id=header >What is the difference between Margin, Border, and Padding?</p>
-<br>
+<h2>What is the difference between Margin, Border, and Padding?</h2>
+
 
 
 <p class="discriptor2">To put it plainly, Margin is the outermost property, Border is the middle property, and Padding is the innermost property.</p> 
-<br>
-<p>How do they function?</p>
-<br>
+
+<h2>How do they function?</h2>
+
 <p class="discriptor2">They all have a similar function which is to provide spacing, but they are different in the sense of location and usage.</p>
-<br>
-<p>The best way of explaining this is by showing you the "box model"</p>
-<br>
+
+<h2>The best way of explaining this is by showing you the "box model"</h2>
+
 <p class="discriptor3">The box model is a layout concept that is used to define the layout and dimensions of html elements on a webpage.</p>
 
-<br>
-<div class="img-container">
-  <img class="img-style" src="https://media.gcflearnfree.org/content/5ef2084faaf0ac46dc9c10be_06_23_2020/box_model.png" alt="An example of the box-model">
-</div>
-<br>
-<p>
+
+
+  <img src="https://media.gcflearnfree.org/content/5ef2084faaf0ac46dc9c10be_06_23_2020/box_model.png" alt="An example of the box-model">
+
+
+<h2>
 The box 
 model can be broken into 4 seperate areas.
-</p>
+</h2>
 
-<br>
-<p>Margin</p>
+
+<h3>Margin</h3>
 <p class="discriptor1">An invisible box that seperates html elements</p>
 <p>&#x25BE;</p>
-<p>Border</p>
+<h3>Border</h3>
 <p class="discriptor1">A box that surrounds an html elements padding</p>
 <p>&#x25BE;</p>
-<p>Padding</p>
+<h3>Padding</h3>
 <p class="discriptor1">A box that surrounds an html elements inner content, similar effect to that of a highlighter on paper</p>
 <p>&#x25BE;</p>
-<p>Content</p>
-<p class="discriptor1">The inner content of an html element, things such as <.h1> & <.p> </p>
+<h3>Content</h3>
+<p class="discriptor1">The inner content of an html element, things such as <.h2> & <.p> </p>
 
 
 
