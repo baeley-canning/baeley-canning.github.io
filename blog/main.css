@@ -89,3 +89,13 @@ img {
   border: black;
   border-style: double;
 }
+
+@media (max-width: 600px) {
+  img {
+    display: block;
+    margin: 0 auto;
+    max-width: 85%;
+    border: black;
+    border-style: double;
+  }
+  }
