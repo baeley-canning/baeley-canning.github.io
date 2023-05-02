@@ -22,3 +22,13 @@ a {
   font-family: "burtons";
   src: url("../public/Burtons.otf");
 }
+
+@keyframes spin-once {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.hover\:animate-spin-once:hover {
+  animation: spin-once 1s ease-in-out forwards;
+}
