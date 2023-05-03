@@ -180,9 +180,9 @@ export default function Home() {
           <div>
             <h3 className="text-3xl py-1 dark:text-white ">Portofolio</h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-              Throughout my developmental journey, I've been able to create a
-              plethora of projects that I hold dear to my heart, and I'd love to
-              share them with you.
+              Throughout my developmental journey, I&apos;ve been able to create
+              a plethora of projects that I hold dear to my heart, and I&apos;d
+              love to share them with you.
             </p>
           </div>
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
