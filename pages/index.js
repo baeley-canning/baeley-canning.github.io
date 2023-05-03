@@ -219,7 +219,7 @@ export default function Home() {
                 <h3 className="text-2xl py-1 dark:text-white ">
                   Full-Stack Developer
                 </h3>
-                <p className="mt-4">
+                <p className="mt-4 dark:text-white">
                   This was a final group project during the last week of Dev
                   Academy Aotearoa. The site fetches artwork from an external
                   API, allowing a user to curate a collection. The site utilizes
@@ -232,7 +232,7 @@ export default function Home() {
                 </p>
                 <br></br>
                 <h3 className="text-2xl py-1 dark:text-white ">Tech Stack</h3>
-                <p className="mt-4">
+                <p className="mt-4 dark:text-white">
                   React, Javascript, Typescript, Tailwind, Knex, Redux, Express,
                   Node.js
                 </p>
