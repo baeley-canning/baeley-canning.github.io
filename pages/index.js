@@ -7,6 +7,13 @@ import deved from '../public/side-eye-sketch.gif'
 import Image from 'next/image'
 import VID1 from '../public/VID1.gif'
 import VID2 from '../public/VID2.gif'
+import HTML from '../public/HTML.svg'
+import CSS from '../public/CSS.svg'
+import TAILWIND from '../public/TAILWIND.svg'
+import JAVASCRIPT from '../public/JAVASCRIPT.svg'
+import TYPESCRIPT from '../public/TYPESCRIPT.svg'
+import REACT from '../public/REACT.svg'
+import REDUX from '../public/REDUX.svg'
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false)
 
@@ -93,53 +100,67 @@ export default function Home() {
           </div>
           <div className="lg:flex gap-10">
             <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">
-              <img
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg"
-                class="w-100 h-100"
+              <Image
+                className="rounded-lg object-cover"
+                width={'100%'}
+                height={'100%'}
+                layout="responsive"
+                src={HTML}
               />
-              <h3 className="text-lg font-medium pt-8 pb-2  ">HTML</h3>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
-              <img
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg"
-                class="w-100 h-100"
+              <Image
+                className="rounded-lg object-cover"
+                width={'100%'}
+                height={'100%'}
+                layout="responsive"
+                src={CSS}
               />
-              <h3 className="text-lg font-medium pt-8 pb-2 ">CSS</h3>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
-              <img
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg"
-                class="w-100 h-100"
+              <Image
+                className="rounded-lg object-cover"
+                width={'100%'}
+                height={'100%'}
+                layout="responsive"
+                src={TAILWIND}
               />
-              <h3 className="text-lg font-medium pt-8 pb-2 ">Tailwind</h3>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
-              <img
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg"
-                class="w-100 h-100"
+              <Image
+                className="rounded-lg object-cover"
+                width={'100%'}
+                height={'100%'}
+                layout="responsive"
+                src={JAVASCRIPT}
               />
-              <h3 className="text-lg font-medium pt-8 pb-2 ">JavaScript</h3>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
-              <img
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
-                class="w-100 h-100"
+              <Image
+                className="rounded-lg object-cover"
+                width={'100%'}
+                height={'100%'}
+                layout="responsive"
+                src={TYPESCRIPT}
               />
-              <h3 className="text-lg font-medium pt-8 pb-2 ">TypeScript</h3>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
-              <img
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
-                class="w-100 h-100"
+              <Image
+                className="rounded-lg object-cover"
+                width={'100%'}
+                height={'100%'}
+                layout="responsive"
+                src={REACT}
               />
-              <h3 className="text-lg font-medium pt-8 pb-2 ">React</h3>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
-              <img
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg"
-                class="w-100 h-100"
+              <Image
+                className="rounded-lg object-cover"
+                width={'100%'}
+                height={'100%'}
+                layout="responsive"
+                src={REDUX}
               />
-              <h3 className="text-lg font-medium pt-8 pb-2 ">Redux</h3>
             </div>
           </div>
         </section>
