@@ -1,5 +1,10 @@
 import Head from 'next/head'
-import { AiFillLinkedin, AiFillGithub, AiFillFilePdf } from 'react-icons/ai'
+import {
+  AiFillLinkedin,
+  AiFillGithub,
+  AiFillFilePdf,
+  AiOutlineGithub,
+} from 'react-icons/ai'
 import { BsFillMoonStarsFill } from 'react-icons/bs'
 import { useState } from 'react'
 import deved from '../public/side-eye-sketch.gif'
@@ -205,7 +210,7 @@ export default function Home() {
                   href="https://github.com/tohora-2023/Gallerina"
                   className="absolute bottom-0 right-0 p-2 z-10"
                 >
-                  <AiFillGithub className="h-10 w-10" />
+                  <AiFillGithub className="dark:text-white h-10 w-10" />
                 </a>
                 <Image
                   className="rounded-lg object-cover"
