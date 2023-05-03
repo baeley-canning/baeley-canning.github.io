@@ -186,25 +186,57 @@ export default function Home() {
             </p>
           </div>
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
-            <div className="basis-1/3 flex-1 ">
-              <Image
-                className="rounded-lg object-cover"
-                width={'75%'}
-                height={'50%'}
-                layout="responsive"
-                src={VID1}
-                alt="Climate CTRL"
-              />
+            <div className="basis-1/3 flex-1">
+              <div className="border rounded-lg p-4">
+                <Image
+                  className="rounded-lg object-cover"
+                  width={'75%'}
+                  height={'50%'}
+                  layout="responsive"
+                  src={VID1}
+                  alt="Climate-Ctrl"
+                />
+                <h3 className="text-2xl py-1 dark:text-white ">TBA</h3>
+              </div>
             </div>
-            <div className="basis-1/3 flex-1 ">
-              <Image
-                className="rounded-lg object-cover"
-                width={'75%'}
-                height={'50%'}
-                layout="responsive"
-                src={VID2}
-                alt="Gallerina"
-              />
+            <div className="relative basis-1/3 flex-1">
+              <div className="border rounded-lg p-4">
+                <a
+                  href="https://github.com/tohora-2023/Gallerina"
+                  className="absolute bottom-0 right-0 p-2 z-10"
+                >
+                  <AiFillGithub className="h-10 w-10" />
+                </a>
+                <Image
+                  className="rounded-lg object-cover"
+                  width={'75%'}
+                  height={'50%'}
+                  layout="responsive"
+                  src={VID2}
+                  alt="Gallerina"
+                />
+                <br></br>
+                <h3 className="text-2xl py-1 dark:text-white ">
+                  Full-Stack Developer
+                </h3>
+                <p className="mt-4">
+                  This was a final group project during the last week of Dev
+                  Academy Aotearoa. The site fetches artwork from an external
+                  API, allowing a user to curate a collection. The site utilizes
+                  auth0 for authenication. Users can create a collection and add
+                  artwork to it. They can also rename, delete the collection, as
+                  well as add notes to individual artworks within a collection.
+                  This project helped further my understanding of redux,
+                  authenication and how it ties into the backend, tailwind and
+                  full stack applications in general.
+                </p>
+                <br></br>
+                <h3 className="text-2xl py-1 dark:text-white ">Tech Stack</h3>
+                <p className="mt-4">
+                  React, Javascript, Typescript, Tailwind, Knex, Redux, Express,
+                  Node.js
+                </p>
+              </div>
             </div>
           </div>
         </section>
