@@ -90,7 +90,12 @@ export default function Home() {
               </button>
             </div>
             <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
-              <Image src={deved} layout="fill" objectFit="inherit" />
+              <Image
+                src={deved}
+                layout="fill"
+                objectFit="inherit"
+                alt="deved"
+              />
             </div>
           </div>
         </section>
@@ -106,6 +111,7 @@ export default function Home() {
                 height={'100%'}
                 layout="responsive"
                 src={HTML}
+                alt="HTML"
               />
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
@@ -115,6 +121,7 @@ export default function Home() {
                 height={'100%'}
                 layout="responsive"
                 src={CSS}
+                alt="CSS"
               />
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
@@ -124,6 +131,7 @@ export default function Home() {
                 height={'100%'}
                 layout="responsive"
                 src={TAILWIND}
+                alt="Tailwind"
               />
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
@@ -133,6 +141,7 @@ export default function Home() {
                 height={'100%'}
                 layout="responsive"
                 src={JAVASCRIPT}
+                alt="Javascript"
               />
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
@@ -142,6 +151,7 @@ export default function Home() {
                 height={'100%'}
                 layout="responsive"
                 src={TYPESCRIPT}
+                alt="Typescript"
               />
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
@@ -151,6 +161,7 @@ export default function Home() {
                 height={'100%'}
                 layout="responsive"
                 src={REACT}
+                alt="React"
               />
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
@@ -160,6 +171,7 @@ export default function Home() {
                 height={'100%'}
                 layout="responsive"
                 src={REDUX}
+                alt="Redux"
               />
             </div>
           </div>
@@ -181,6 +193,7 @@ export default function Home() {
                 height={'50%'}
                 layout="responsive"
                 src={VID1}
+                alt="Climate CTRL"
               />
             </div>
             <div className="basis-1/3 flex-1 ">
@@ -190,6 +203,7 @@ export default function Home() {
                 height={'50%'}
                 layout="responsive"
                 src={VID2}
+                alt="Gallerina"
               />
             </div>
           </div>
